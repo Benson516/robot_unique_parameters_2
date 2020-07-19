@@ -1,0 +1,100 @@
+# Network IP
+amr_ip: '192.168.65.202'
+robocall_server_ip: '192.168.65.100'
+elevator_server_ip: '192.168.65.200'
+
+hotel_public_ip: '180.169.112.70'
+
+
+hotelWiFi: 'CitiGO'
+
+# Robot ID
+AMR_ID: 'AMR250_1'
+
+# RSS, WeChat account info
+corp_id: 'ww0692f024800a89da'
+corp_secret: '8PGlM-SyBneRe928871dL-6cnm2Lx713LGmry7cW-6s'
+agent_id: 1000002
+
+front_desk_ext: '0'
+
+# The following are list of hotelGoal "at each floor"
+hotelGoals:
+- ['Station', 'Station_out','Lobby']
+- ['EVW1', 'EVW1S']
+- ['201', '213', 'EVW2', 'EVW2S']
+- ['301', '322', 'EVW3', 'EVW3S']
+- ['401', '422', 'EVW4', 'EVW4S']
+- ['501', '522', 'EVW5', 'EVW5S']
+- ['601', '622', 'EVW6', 'EVW6S']
+- ['701', '722', 'EVW7', 'EVW7S']
+- ['801', '822', 'EVW8', 'EVW8S']
+
+station_floor:
+- '1F'
+
+
+# Destination Number for charging station.
+stationCode:
+- '100'
+- '199'
+- '0100'
+- '0199'
+
+# Init_Pose of [station floor, standard(room) floor]
+tag_position:
+- 136
+- 32
+- 46
+- 51
+- 241
+- 551
+- 571
+- 574
+- 575
+
+tag_136: 'Lobby'
+tag_32: 'EVW1'
+tag_46: 'EVW2'
+tag_51: 'EVW3'
+tag_241: 'EVW4'
+tag_551: 'EVW5'
+tag_571: 'EVW6'
+tag_574: 'EVW7'
+tag_575: 'EVW8'
+
+# Daily Reboot Setting: 3 = 3:00 AM
+rebootTime: 3
+
+# ev timeout threshold : 10 mins
+ev_timeout: 6000
+
+
+# List the Nodes that on monitorlist
+node_list:
+- '/ar_base_serial'
+-  '/battery_logging'
+-  '/batteryMonitor'
+-  '/bumper'
+-  '/docking_navigation'
+-  '/laser_filter_laser_front'
+-  '/laser_filter_laser_rear'
+-  '/laser_front/rplidarNode'
+-  '/laser_rear/rplidarNode'
+-  '/move_base'
+-  '/move_operation'
+-  '/mux_cmd_vel'
+-  '/navi_server'
+-  '/navi_center'
+-  '/elevator_checker'
+-  '/position_listener'
+-  '/relay_scan_front'
+-  '/relay_scan_rear'
+-  '/robot_state_publisher'
+-  '/rosapi'
+-  '/rosbridge_websocket'
+-  '/sysHealth'
+- '/amcl'
+-  '/amcl_aux_localization'
+-  '/map_server_amcl'
+-  '/map_server_nav'

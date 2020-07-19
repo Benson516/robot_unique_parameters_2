@@ -1,0 +1,36 @@
+tag_descriptions:
+- {id: 136, size: 0.0465} # dock in (major)
+- {id: 12, size: 0.0465} # dock in (aux tag)
+- {id: 311,   size: 0.0465} # lobby cabinet beside 
+- {id: 8, size: 0.0465} # OLD
+- {id: 563, size: 0.0465} # tag at EV box ceiling (center)
+- {id: 215, size: 0.0465} # tag at EV box ceiling (left)
+- {id: 129, size: 0.0465}   # dock out 
+
+- {id: 32, size: 0.0465} # EVW1
+- {id: 581, size: 0.0465} # EVW1 aux
+
+- {id: 46, size: 0.0465} # EVW2
+#- {id: 12, size: 0.0465} # EVW2 aux
+
+- {id: 51, size: 0.0465} # EVW3
+- {id: 210, size: 0.0465} # EVW3 aux
+
+- {id: 241, size: 0.0465} # EVW4 
+#- {id: 210, size: 0.0465} # EVW4 aux
+
+- {id: 551, size: 0.0465} # EVW5
+# - {id: 581, size: 0.0465} # EVW5 aux
+
+- {id: 571, size: 0.0465} # EVW6
+#- {id: 581, size: 0.0465} # EVW6 aux
+
+- {id: 574, size: 0.0465} # EVW7
+# - {id: 572, size: 0.0465} # EVW7 aux
+
+- {id: 575, size: 0.0465} # EVW8
+# - {id: 581, size: 0.0465} # EVW8 aux
+- {id: 191, size: 0.0465} # EVW8 corner 
+- {id: 129, size: 0.0465} # EVW8 corner R
+- {id: 80, size: 0.0465} # EVW8 corner L
+

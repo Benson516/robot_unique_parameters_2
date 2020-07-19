@@ -1,0 +1,3 @@
+wheelSeparation: 0.375 # 0.374
+wheelRadius: 0.076 # 0.075
+ADin2volt_correctionRatio: 1.0

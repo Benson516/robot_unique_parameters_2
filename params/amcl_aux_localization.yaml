@@ -1,0 +1,73 @@
+initial_pose:
+- [0.0]
+- [0.0]
+- [0.0]
+
+# The following are list of tag poses "at each floor"
+tag_pose_default:
+# [x, y, theta, id] in /map coordinate system
+- [23.036435870344837, 22.350572007083364, 0.0, 136.0]
+- [23.393435870344836, 22.350572007083364, 0.0, 129.0]
+- [23.103435870344836, 21.122855836503224, 0.0, 311.0]
+- [18.675, 15.849296451632044, 0.0, 8.0]
+- [18.675, 17.687044986003204, 0.0, 563.0]
+tag_pose_1F:
+# [x, y, theta, id] in /map coordinate system
+- [23.036435870344837, 22.350572007083364, 0.0, 136.0] # On station, major 
+- [22.929155988419613, 22.250800775704917, -0.10065856385890824, 12.0] # On station, aux
+- [23.393435870344836, 22.350572007083364, 0.0, 129.0] # On station too , but can't see because strong light source from Lobby ceiling.
+- [23.103435870344836, 21.122855836503224, 0.0, 311.0] # beside cabinet
+- [18.666, 15.824, 0.0, 32.0] # EVW1   # y - 0.05 , x + 0.025
+- [18.678247267708613, 16.278053166905174, 0.057582193018845533, 581.0] # EVW1 aux  
+- [18.825, 17.69, 0.0, 563.0] # Tag at EV box top
+- [18.698, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+tag_pose_2F:
+# [x, y, theta, id] in /map coordinate system
+- [18.85, 15.775, -0.017, 46.0]  # EVW2 # calibration : y - 0.075
+- [18.844781348556239, 16.071230246442628, -0.058311512433285473, 12.0]  # EVW2 aux
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top 
+- [18.648, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+tag_pose_3F:
+# [x, y, theta, id] in /map coordinate system
+- [18.825, 15.80, 0.0, 51.0]  # EVW3 # calibration :  x - 0.025, y - 0.05
+- [18.821007675817352, 16.099398861527927, -0.068241023515931712, 210.0]  # EVW3 # calibration :  x - 0.025, y - 0.05
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top 
+- [18.648, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+# - [18.675, 15.849296451632044, 0.0, 8.0]
+#- [18.675, 17.687044986003204, 0.0, 563.0] # OLD
+#- [24.928775650370135, 20.244245393885045, 0.0, 1.0] OLD
+tag_pose_4F:
+# [x, y, theta, id] in /map coordinate system
+- [18.79, 15.8, 0.0, 241.0]  # EVW4 # calibration x - 0.05 , y - 0.05  
+- [18.796230355435288, 16.089360838884087, -0.043382354752176409, 210.0]  # EVW4 aux
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top 
+- [18.648, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+tag_pose_5F:
+# [x, y, theta, id] in /map coordinate system
+- [18.80, 15.80, 0.0, 551.0]  # EVW5 #calibration  x - 0.05, y - 0.05 
+- [18.807866470113687, 16.130597027749076, -0.012953558368988913, 581.0]  # EVW5 aux
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top # y - 0.05 
+- [18.648, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+tag_pose_6F:
+# [x, y, theta, id] in /map coordinate system
+- [18.81, 15.80, -0.017, 571.0]  #EVW6 # x = 18.35 + 0.44  + 0.06, y = 17.1 - 1.25 # calibration :x - 0.8 * 0.05,  y - 0.05, angle - 0.017 
+- [18.815762873599333, 16.136079936028683, -0.087630042115242321, 581.0] # EVW6 aux
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top 
+- [18.648, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+tag_pose_7F:
+# [x, y, theta, id] in /map coordinate system
+- [18.85, 15.80, -0.017, 574.0]  # EVW7
+- [18.85326855073744, 16.142094324124841, -0.084544620131624851, 581.0]  # EVW7 aux
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top 
+- [18.648, 17.69, 3.1415926, 215.0] # Tag at EV box top (left) x = center - 0.127m
+tag_pose_8F:
+# [x, y, theta, id] in /map coordinate system
+- [18.825, 15.80, 0.0, 575.0]  # EVW8  # Calibration, x - 0.025 , y - 0.05
+- [18.824206938917676, 16.12838311357633, -0.071109194876246506, 581.0]  # EVW8 aux
+- [13.338, 16.225, 0.016,191.0] #EVW8 corner
+#- [13.161, 18.230, 0.026,129.0] #EVW8 corner R
+- [13.182, 13.620, -0.054,80.0] #EVW8 corner L
+- [18.775, 17.69, 0.0, 563.0] # Tag at EV box top (center)
+- [18.648, 17.69, 3.1415926 , 215.0] # Tag at EV box top (left) x = center - 0.127m , + 
+
+
