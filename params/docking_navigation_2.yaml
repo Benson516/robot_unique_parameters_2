@@ -1,0 +1,39 @@
+
+# Dictionaries that store the coordinate of each location.
+location_dict: # A dictionary of poses at certain locations: [x, y, theta], [meter, meter, rad],  the position of base in station frame
+    default:            [2.71, 0.0, 0.0]
+    elevator_in:        [0.72, 0.0, 0.0] # 0.8 - 0.10 - 0.03 + 0.05 # I think this is prefect 
+    elevator_out:       [2.65, 0.0, 0.0] # 3.05 - 0.1 - 0.2 - 0.1 # Make EV_out closer to EV, when entering EV. 
+    station_in:         [0.64, 0.0, 0.0] #1.0 #0.68 #0.71 # [0.76, 0.0, 0.0]
+    station_out:        [1.4, 0.0, 0.0]  #2.0 # 1.2
+init_global_location_dict: # A dictionary of initial poses of "stations" in map frame
+    default:            [0.364, -2.77, 1.5707963267948966]
+    elevator_1:         [3.84, 7.25, 3.141592653589793] # What is this ?  
+    station:            [22.24013561, 22.377858649999998, 0.0] # TODO need to check
+    #elv_1F:             [18.625, 19.19359432, -1.5707963267948966] 
+    elv_1F:             [18.775, 19.05, -1.5707963267948966] # Calibration, by testing  ,x - 0.05
+    #elv_2F:             [18.625, 19.19359432, -1.5707963267948966]
+    elv_2F:             [18.775, 19.05, -1.5707963267948966] 
+    #elv_3F:             [18.625, 19.19359432, -1.5707963267948966]
+    elv_3F:             [18.775, 19.05, -1.5707963267948966] 
+    #elv_4F:             [18.625, 19.19359432, -1.5707963267948966]
+    elv_4F:             [18.805, 19.05, -1.5707963267948966] # Calibration, by testing , not really a sanity thing to do, x + 0.03
+    # elv_5F:             [18.625, 19.19359432, -1.5707963267948966]
+    elv_5F:             [18.775, 19.05, -1.5707963267948966] 
+    #elv_6F:             [18.625, 18.99359432, -1.5707963267948966] # y = y - 0.2
+    elv_6F:             [18.775, 19.05, -1.5707963267948966] # x = 18.0 + (19.55 - 18.0)/2 , y = 19.05
+    #elv_7F:             [18.625, 19.19359432, -1.5707963267948966] 
+    elv_7F:             [18.775, 19.05, -1.5707963267948966] 
+    #elv_8F:             [18.625, 19.19359432, -1.5707963267948966]
+    elv_8F:             [18.775, 19.05, -1.5707963267948966] 
+    elv_1000F:          [0.364, -2.77, 1.5707963267948966]
+    elv_B1:             [18.625, 19.19359432, -1.5707963267948966]
+#
+
+tag_pose_id:
+# [x, y, theta, id] in (/map)  /staion  coordinate system
+# - [0.0, -0.438, 0.0, 1.0]
+# - [0.0,  0.436, 0.0, 2.0]
+ - [0.162,  0.0, 0.0, 242.0] # test in office
+# - [0.0,  0.0, 0.0, 242.0] # only tag, no station
+
